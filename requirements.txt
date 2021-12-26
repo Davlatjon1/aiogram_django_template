@@ -1,0 +1,7 @@
+environs==9.3.3
+aiogram==2.12.1
+Django==3.1
+pathlib==1.0.1
+djangorestframework==3.12.4
+requests==2.26.0
+asgiref==3.2.10
