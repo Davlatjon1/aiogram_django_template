@@ -26,7 +26,7 @@ SECRET_KEY = ')@^#(vj0e%4mfqp0z%u_*(x!^znxzwdas7op!#^m(0^$9&r8d('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['1f50-213-230-127-235.ngrok.io', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -82,7 +82,7 @@ DATABASES = {
         # 'ENGINE': 'django.db.backends.postgresql',
         # 'NAME': config.DATABASE,
         # 'USER': config.PGUSER,
-        # 'PASSWORD': config.PASSWORD,
+        # 'PASSWORD': config.PGPASSWORD,
         # 'HOST': config.DBHOST,
         # 'PORT': 5432
     }
